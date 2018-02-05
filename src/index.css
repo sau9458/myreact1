@@ -1,0 +1,10 @@
+#root{
+  width:700px;
+  margin:auto;
+}
+ul{
+  list-style-type: none;
+}
+.badge{
+  float: right;
+}
