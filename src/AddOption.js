@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Todo from './index.js'
+
 let btnStyle = {
 
 	}

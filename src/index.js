@@ -4,9 +4,7 @@ import './index.css';
 import input from './input.json';
 import AddOption from './AddOption.js'
 import registerServiceWorker from './registerServiceWorker';
-let btnStyle = {
-		border: '1px solid red'
-	}
+
 export class Todo extends React.Component{
   constructor(){
     super();
@@ -48,7 +46,7 @@ render(){
         <ul>
             <li><h2>ToDo</h2></li>
              {jsondata}
-            {<li><AddOption /*handleAddOption={this.handleAddOption} options={this.state.options}*//></li> }
+            {<AddOption /*handleAddOption={this.handleAddOption} options={this.state.options}*//> }
 
           </ul>
       </div>
