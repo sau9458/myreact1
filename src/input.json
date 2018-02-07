@@ -1,8 +1,7 @@
 {
   "data":
   [
-  {"id":1,"text":"Sau","status":false},
-  {"id":2,"text":"Abc","status":false}
-
+  {"id":1,"text":"Sau","status":true,"badge":""},
+  {"id":2,"text":"Abc","status":true,"badge":""}
   ]
 }
