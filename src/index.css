@@ -5,6 +5,61 @@
 ul{
   list-style-type: none;
 }
+
+.remove{
+  float:left;
+  height:25px;
+  padding: 2px;
+  margin-left: 10px;
+  background-color: rgba(9, 17, 239,.6);
+}
+.edit{
+  float:left;
+  height:25px;
+  margin-left: 0px;
+    padding: 2px;
+    background-color: rgba(65, 178, 244,.5);
+
+}
 .badge{
+   float: right;
+
+}
+.submit{
+  background-color:rgba(244, 65, 91,.5);
+}
+.editinput{
+  width:120px;
+  height:25px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.parent{
+  display: inline-block;
+  width:100%;
+}
+.subparent{
+  display: inline-block;
+}
+.form-inline {
+  display: inline-block;
+}
+.subparent input[type="checkbox"]{
+  vertical-align: sub;
+}
+.btndiv{
   float: right;
+  margin-left: 0px;
+  width:180px;
+}
+
+.savebtn{
+  height:25px;
+  width:50px;
+  vertical-align: baseline;
+  padding: 0px;
+  background-color: rgba(65, 244, 137,.8);
+
+  text-align: center;
 }
